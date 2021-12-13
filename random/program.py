@@ -65,4 +65,9 @@ student_list.remove(4) # Not possible in the case of tuples
 # dir(list)
 sample_list = [1.1, 2.2, 3.3]
 sample_list.index(2.2) # sample_list.index(value, start_index, stop_index)
+sample_list.__getitem__(0)
+sample_list[0]
 sample_list.clear()
+
+# List Slices -> lower limit is inclusive but upper limit is exclusive
+sample_list[1:3]
