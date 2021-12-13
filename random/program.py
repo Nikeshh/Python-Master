@@ -70,4 +70,20 @@ sample_list[0]
 sample_list.clear()
 
 # List Slices -> lower limit is inclusive but upper limit is exclusive
-sample_list[1:3]
+sample_list[1:3] # Item 1 to 3
+sample_list[1:] # Item 1 to list length
+sample_list[:3] # Item 1 to 3
+
+# Negative indexing in python. In python, a list has two types of indexing. Positive indexing and negative indexing
+# Positive indexing is forward indexing and Negative indexing is backward indexing
+sample_list[0] # returns first value
+sample_list[-1] # returns last value
+
+# Strings also have same type of indexing as lists
+mystring = "hello"
+mystring[0]
+mystring[-1]
+mystring[:3]
+
+# Accessing items in dictionary
+student_dict["Student1"]
